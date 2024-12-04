@@ -1,0 +1,21 @@
+# Environment variables and secrets
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs that might contain sensitive information
+*.log
+/log/
+
+# Local development files that might contain secrets
+.byebug_history
+
+# IDE specific files that might contain local paths or settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
